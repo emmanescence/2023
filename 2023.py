@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Leer archivo Excel
-file_path = 'Encuestapy.xlsx'  # Cambia el path si es necesario
+file_path = 'https://github.com/emmanescence/2023/blob/main/Encuestapy.xlsx'  # Cambia el path si es necesario
 df = pd.read_excel(file_path)
 
 # Filtrar solo las columnas de los candidatos indicados y las columnas de filtros
